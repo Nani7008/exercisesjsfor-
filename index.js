@@ -127,14 +127,14 @@
 // N  (N>0) butun son berilgan. Quyidagi ko‗paytmani hisoblovchi algoritm tuzilsin: S=1.1*1.2*1.3* ... (N ta ko‗paytuvchi). 
 
 
-let n = +prompt('n sonini kiritng');
-let s = 1;
+// let n = +prompt('n sonini kiritng');
+// let s = 1;
 
 
-for (let i = 1.1; i <=n; i+=0.1) {
-    s *= i; 
-}
+// for (let i = 1.1; i <=n; i+=0.1) {
+//     s *= i; 
+// }
 
-console.log('ko`paytma: ', s); 
+// console.log('ko`paytma: ', s); 
 
 
