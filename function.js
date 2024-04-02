@@ -134,5 +134,5 @@
 // }
 
 // let kod = +prompt("Iltimos kod raqamini kiriting");
-// alert(fasl(oy));
+// alert(operator(kod));
 
