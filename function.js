@@ -71,63 +71,58 @@
 
 
 
-// function juftSonlarYigindisi(n) {
+// function nisbat(n) {
 
-//     let s = 0;
+//     let j = 0;
+//     let t = 0
 
 //     for (let i = 1; i <= n; i++) {
 //         if (i % 2 == 0) {
-//             s += i;
+//             j += i;
 //         }
-      
-//     }
-//     return (s)
 
-// }
-
-
-// function toqSonlarYigindisi(n) {
-
-//     let s = 0;
-
-//     for (let i = 1; i <= n; i++) {
 //         if (i % 2 !== 0) {
-//             s += i;
+//             t += i;
 //         }
-      
+
 //     }
-//    return (s)
+//     return (j / t)
+
 // }
-// let n = +prompt ("n sonini kriting")
-// console.log(juftSonlarYigindisi(n));
-// console.log (toqSonlarYigindisi(n));
-// console.log ((juftSonlarYigindisi(n))/(toqSonlarYigindisi(n)))
+
+// let n = +prompt("n sonini kriting")
+// console.log(nisbat(n));
+
 
 // 4.  Telefon raqam kodiga qarab qaysi "Operator" ekanini aniqlovchi dastur yozing.
 
 // function operator(kod) {
 
 //     switch (kod) {
-//         case 99: 
-//             kodOperator= "Uzmobile";
+//         case 99:
+//             kodOperator = "Uzmobile";
 //             break;
-//         case 95: 
-//             kodOperator= "Uzmobile";
+//         case 95:
+//             kodOperator = "Uzmobile";
 //             break;
-//         case 97: 
-//             kodOperator= "UMS";
+//         case 97:
+//             kodOperator = "UMS";
 //             break;
-//         case 93: 
-//             kodOperator= "Ucell";
+//         case 93:
+//             kodOperator = "Ucell";
 //             break;
-//        case 94: 
-//             kodOperator= "UMS";
+//         case 94:
+//             kodOperator = "UMS";
 //             break;
-//        case 90: 
-//             kodOperator= "Beeline";
+//         case 90:
+//             kodOperator = "Beeline";
 //             break;
-//        case 91: 
-//             kodOperator= "Beeline";
+//         case 91:
+//             kodOperator = "Beeline";
+//             break;
+
+//         default:
+//             kodOperator = "Hatolik bunday operator yo`q";
 //             break;
 //     }
 //     return kodOperator;
