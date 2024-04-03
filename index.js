@@ -264,7 +264,6 @@
 
 
 
-
 // if 8
 // let a = +prompt ('a=')
 // let b = +prompt ('b=')
@@ -282,16 +281,6 @@
 // for(let i=10; i<=20; i++) {
 //     console.log (`${i/10}L watter = ${i/10*watterPrice}soms`)
 // }
-
-
-
-
-
-
-
-
-
-
 
 
 

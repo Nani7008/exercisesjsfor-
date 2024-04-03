@@ -1,7 +1,3 @@
-
-
-
-
 // 1. Oy raqami kiritilsa Qaysi fasli ekanini aniqlovchi funksiya yozing
 
 
