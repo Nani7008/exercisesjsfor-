@@ -23,7 +23,7 @@
 
 
 
-// let arr = [5, 2, 6, 1, 8, 4, 7];
+// let arr = [5, 2, 6, 1, 34, 4, 7];
 // let max = arr[0]
 // for (let i = 0; i < arr.length; i++) {
 //     if (arr[i] > max ) {
@@ -91,26 +91,29 @@
 // let result = findIndex([6, 25, 91, 23, 72, 9, 18, 6], 1);
 
 
-    // let arr = [6, 25, 91, 23, 72, 9, 18];
-    // arr.push(13)
-    // console.log(arr)
+//     let arr = [6, 25, 91, 23, 72, 9, 18];
+//     arr.push(13)
+//     console.log(arr)
 
 
-    // function pushLastN (arr, n) {
-    //     arr[arr.length] = n;
-    //     return arr
+//     function pushLastN (arr, n) {
+//         arr[arr.length] = n;
+//         return arr
 
-    // }
+//     }
 
-    // let result = pushLastN([6, 25, 91, 23, 72, 9, 18, 6], 8);
-    // console.log(result);
+//     let result = pushLastN([6, 25, 91, 23, 72, 9, 18, 6], 8);
+//     console.log(result);
 
 
-    // function unShiftN (arr, n) {
-    //     arr[arr.length+1] = n;
-    //     return arr
+// function unShiftN(arr, n) {
+//     let newArr = [];
+//     newArr[0] = n;
 
-    // }
-
-    // let result = unShiftN([6, 25, 91, 23, 72, 9, 18, 6], 8);
-    // console.log(result);
+//     for (let i = 1; i < arr.length + 1; i++) {
+//         newArr[i] = arr[i - 1];
+//     }
+//     return newArr;
+// }
+// let result = unShiftN([10, 20, 5, 7, 3, 2,], 8);
+// console.log(result);

@@ -18,3 +18,51 @@
 // }
 // laptop.passport ()
 
+// 16-masala: Talaba ob'yekti yaratish
+
+// let person = {
+//     ism: "Narimonjon",
+//     yoshi: 28,
+//     fakulteti: "Xalqaro Moliya",
+//     oqish_yili: 2014,
+//     tel_raqami: "993250535"
+//   };
+//   console.log(person);
+  
+//   // 17-masala: Kitob ob'yekti yaratish
+//   let kitob = {
+//     nomi: "Alvido Bolalik",
+//     muallif: "Tohir Malik",
+//     chop_etilgan_yil: 2019,
+//     sahifa_soni: 504,
+//     tili: "O`zbek tili"
+//   };
+  
+//   console.log(kitob);
+  
+//   // 18-masala: Telefon ob'yekti yaratish
+//   let telefon = {
+//     model: "iPhone 13",
+//     marka: "Apple",
+//     ram: "6 GB",
+//     disk: "128 GB",
+//     ekran olchami: "6.1 inch"
+//   };
+//   console.log(telefon);
+  
+//   // 19-masala: Uy ob'yekti yaratish
+//   let uy = {
+//     manzil: "Toshkent sh., Uchtepa tumani, Bog`obod ko'chasi",
+//     xonalar_soni: 3,
+//     uy_nomi: "Kvartira",
+//     yil: 2012,
+//     maydon: "80 kv.m"
+//   };
+//   console.log(uy);
+  
+
+  
+
+ 
+
+

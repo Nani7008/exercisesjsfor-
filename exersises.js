@@ -34,15 +34,15 @@
 // alert(ab%10+"birliklar qismi")
 
 
-let userEmail = prompt('enter your email');
-let userPassword = prompt ('enter your password')
+// let userEmail = prompt('enter your email');
+// let userPassword = prompt ('enter your password')
 
 
 
 
-if (userEmail==="narimonjon05@gmail.com" && userPassword === "nani7008") {
-    alert ("Welcome back")
-}
-else {
-    alert ("Email or password is incorrect")
-}
+// if (userEmail==="narimonjon05@gmail.com" && userPassword === "nani7008") {
+//     alert ("Welcome back")
+// }
+// else {
+//     alert ("Email or password is incorrect")
+// }
