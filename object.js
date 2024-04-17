@@ -62,7 +62,70 @@
   
 
   
+// const person={
+//     name: "Narimonjon",
+//     surname: "Mannopov",
+//     age: 28,
+//     fakulteti: "Xalqaro Moliya",
+//     oqish_yili: 2014,
+//     tel_raqami: "993250535",
+//     nationality: "Uzbek",
+//     hobbies: ("football", "cybersport", "swimming", "reading"),   
+//     address:{city:"Tashkent", district:"Uchtepa", house_id:"12"},
+    
+    
+    
+//     passport: function (){
+//                 console.log (`
+//                 Name: ${person.name}
+//                 age ${person.age}
+//                 address ${person.address}
+//                 `)
+//             }
+   
+    
+//     }
 
- 
+// console.log(Object.keys(person))
+// console.log(object.values(person))
+// console.log(object.entries(person))
+// console.log(object.fromEntreies(person))
 
 
+
+
+
+let questions = [
+    "Ismingiz nima?",
+    "Yoshingiz nechida?",
+    "Qaysi kursni tanlamoqchisiz(Frontend/Backend)?",
+    "Ertab yoki Kechasi?",
+    
+];
+
+let answers = [];
+let currentQuestionIndex=0;
+
+
+function askQuestion () {
+    while (currentQuestionIndex<questions.length) {
+        let answer = prompt (questions[currentQuestionIndex]);
+        if (!answer) {
+            continue;
+        }
+        else {
+            answers.push(answer);
+            currentQuestionIndex++;
+        }
+    }
+}
+
+function displayAnswers () {
+    console.log("Javoblar");
+    for (let i = 0; i < answers.length; i++ ) {
+        console.log(`${i+1}. ${questions[i]}: ${answers[i]}`);
+        console.log("===============================================");
+    }
+}
+askQuestion();
+displayAnswers()

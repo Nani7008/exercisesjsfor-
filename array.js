@@ -116,4 +116,60 @@
 //     return newArr;
 // }
 // let result = unShiftN([10, 20, 5, 7, 3, 2,], 8);
-// console.log(result);
+// // console.log(result);
+
+
+// function joylashtir_va_chiqar(array, a, b) {
+//     // Yordamchi funksiya
+//     function joylashtir(array, a, b) {
+//         array[a] = b;
+//     }
+
+//     // Yordamchi funksiyaning chaqirilishi
+//     joylashtir(array, a, b);
+
+//     // Yangilangan massivni chiqarish
+//     console.log(array);
+// }
+
+// function olibTashlash(array, n) {
+//     if (n < array.length) {
+//         let element = array.splice(n, 1)[0];
+//         console.log(`${n}-chi indeksdagi element: ${element}`);
+//         console.log("Yangi massiv:", array);
+//     } else {
+//         console.log("Kechirasiz, berilgan indeks massivning uzunligidan kichik yoki teng.");
+//     }
+// }
+
+// let array = [4, 5, 6, 7];  // Massiv
+// let n = 2;  // Olib tashlanadigan indeks
+
+// olibTashlash(array, n);
+
+
+
+// function arrayreverse(array) {
+//     array = array.reverse();
+//     console.log(array);
+// }
+
+// let array = [1, 2, 3, 4];  
+// arrayreverse(array);
+
+
+// function countN(n, array) {
+//     let count=0;
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] === n) {
+//             count++;
+//         }
+//         return count;
+//     }
+
+// }
+// const n = 4;
+// const array = [2, 4, 6, 4];
+// const result = countN(n, array);
+// console.log(`${n} ta ${result} raqami bor`);
+
