@@ -95,37 +95,37 @@
 
 
 
-let questions = [
-    "Ismingiz nima?",
-    "Yoshingiz nechida?",
-    "Qaysi kursni tanlamoqchisiz(Frontend/Backend)?",
-    "Ertab yoki Kechasi?",
+// let questions = [
+//     "Ismingiz nima?",
+//     "Yoshingiz nechida?",
+//     "Qaysi kursni tanlamoqchisiz(Frontend/Backend)?",
+//     "Ertab yoki Kechasi?",
     
-];
+// ];
 
-let answers = [];
-let currentQuestionIndex=0;
+// let answers = [];
+// let currentQuestionIndex=0;
 
 
-function askQuestion () {
-    while (currentQuestionIndex<questions.length) {
-        let answer = prompt (questions[currentQuestionIndex]);
-        if (!answer) {
-            continue;
-        }
-        else {
-            answers.push(answer);
-            currentQuestionIndex++;
-        }
-    }
-}
+// function askQuestion () {
+//     while (currentQuestionIndex<questions.length) {
+//         let answer = prompt (questions[currentQuestionIndex]);
+//         if (!answer) {
+//             continue;
+//         }
+//         else {
+//             answers.push(answer);
+//             currentQuestionIndex++;
+//         }
+//     }
+// }
 
-function displayAnswers () {
-    console.log("Javoblar");
-    for (let i = 0; i < answers.length; i++ ) {
-        console.log(`${i+1}. ${questions[i]}: ${answers[i]}`);
-        console.log("===============================================");
-    }
-}
-askQuestion();
-displayAnswers()
+// function displayAnswers () {
+//     console.log("Javoblar");
+//     for (let i = 0; i < answers.length; i++ ) {
+//         console.log(`${i+1}. ${questions[i]}: ${answers[i]}`);
+//         console.log("===============================================");
+//     }
+// }
+// askQuestion();
+// displayAnswers()

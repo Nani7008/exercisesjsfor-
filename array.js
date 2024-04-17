@@ -173,3 +173,56 @@
 // const result = countN(n, array);
 // console.log(`${n} ta ${result} raqami bor`);
 
+
+// let array = [4,[9],5,6,7];
+
+
+// function () {
+// newArray=array.flat(9)
+// }
+// console.log(newArray);
+
+
+
+// function insertAtIndex(arr, a, b) {
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (i == a) {
+//             newArr.push(b);
+//         } else {
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+
+// let a = 2;
+// let b = 9
+// let array = [4, 5, 6, 7]
+// let resultArray = insertAtIndex(array, a, b);
+// console.log(resultArray);
+
+// function deleteAtIndex(arr, a) {
+//     let newArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (i == a) {
+//             continue;
+//         } else {
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+// let a = 2;
+// let array = [4, 5, 6, 7]
+// let resultArray = deleteAtIndex(array, a);
+// console.log(resultArray);
+
+// function reverse(arr) {
+//     let newArr = [];
+//     for (let i = arr.length - 1; i >= 0; i--) {
+//         newArr.push(arr[i]);
+//     }
+//     return newArr;
+// }
+
