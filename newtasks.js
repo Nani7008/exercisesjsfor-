@@ -87,7 +87,7 @@
 // function convertLowerCase(info) {
 //     if (typeof info ===`string`) {
 //     if (info === info.toUpperCase()) {
-//     return info.toLowerCase();
+//     return info.toLowerCase()    ;
 //     }
 //     else {
 //         return "All letters must be uppercase"
@@ -119,8 +119,7 @@
 // }
 // console.log(factorialNumber(8));
 
-// TODO: 3. 
-// 3. Function to Convert Celsius to Fahrenheit:
+// TODO: // 3. Function to Convert Celsius to Fahrenheit:
 // Write a function that takes a temperature in Celsius as an argument and returns the equivalent temperature in Fahrenheit.
 
 
@@ -134,3 +133,6 @@
 //     return (f-32)/1.8
 // }
 // console.log(fToCel(100));
+// 
+
+                                                                 
