@@ -64,6 +64,10 @@
  
 //  console.log(juftToq(113));
 
+
+                                                                                        // HOMEWORK 4.18.24
+
+
 // TODO: 1. Function to Convert Uppercase to Lowercase:
 // Write a function that takes a string as an argument and returns the string with all uppercase letters converted to lowercase.
 
