@@ -167,6 +167,7 @@ const car1 ={
     make: "Toyota",
     model: "Corolla",
     year: 2022,
+    someObject: {x: 1, y: 2}
  
 };
 const car2 ={
@@ -186,17 +187,29 @@ const mergeCar = Object.assign({},car1, car3, car2);
 
 
 
-const make = "Toyota";
-const model = "Corolla";
-const year = 2022;
+// const make = "Toyota";
+// const model = "Corolla";
+// const year = 2022;
 
 
-const car = {
-    make: make,
-    model: model,
-    year: year,
+// const car = {
+//     make: make,
+//     model: model,
+//     year: year,
     
-  }
+// //   }
+// const {
+//     make,
+//     model,
+//     year,
+//     someObject: {x, y}
+// } =car1;
+// const nergedCar = {...car1, ...car2};
+// console.log(make, model, year, x, y);
+// console.log(mergeCar);
+// console.log(car1.hasOwnProperty("make"));
+// console.log(car2.hasOwnProperty("make"));
+
 
 
 
