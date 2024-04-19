@@ -233,7 +233,7 @@
 
 
 
-// TODO: // Exercise 1: Write a function that takes a string and a separator character as input, and returns an array of substrings that were separated by the separator.
+// TODO:  12// Exercise 1: Write a function that takes a string and a separator character as input, and returns an array of substrings that were separated by the separator.
 
 
 // function splitString(str, separator) {
@@ -257,3 +257,12 @@
 
 // const result = splitWithLimit(input, separator, limit);
 // console.log(result); 
+
+//TODO: 13  Write a function that takes a string and a substring as input, and returns  true  if the substring is at the beginning of the string, and  false  otherwise. 
+
+// function isSubstringAtBeginning(inputString, substring) 
+// {     return inputString.startsWith(substring); 
+
+// }
+// console.log(isSubstringAtBeginning("Assalomu alaykum", "Assalomu"));
+ 
