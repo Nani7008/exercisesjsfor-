@@ -246,3 +246,14 @@
 // console.log(substringsArray);
 
 
+// Exercise 2: Write a function that takes a string and a separator character as input, and returns an array of substrings that were separated by the separator, with a limit on the number of splits.
+
+// function splitWithLimit(input, separator, limit) {
+//     return input.split(separator, limit);
+// }
+// const input = "apple,banana,orange,kiwi";
+// const separator = ",";
+// const limit = 3;
+
+// const result = splitWithLimit(input, separator, limit);
+// console.log(result); 
