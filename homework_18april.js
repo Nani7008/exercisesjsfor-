@@ -266,3 +266,40 @@
 // }
 // console.log(isSubstringAtBeginning("Assalomu alaykum", "Assalomu"));
  
+// Exercise 2: Write a function that takes a string and a substring as input, and returns  true  if the substring is at the end of the string, and  false  otherwise.
+
+// function isSubstringAtEnding(inputString, substring) 
+// {     return inputString.endsWith(substring); 
+
+// }
+// console.log(isSubstringAtEnding("Assalomu alaykum", "alaykum"));
+
+// Exercise 3: Write a function that takes a string and a substring as input, and returns  true  if the substring is anywhere in the string, and  false  otherwise.
+
+// function isSubstringAtEnding(inputString, substring) 
+// {     return inputString.endsWith(substring); 
+
+// }
+// console.log(isSubstringAtEnding("Assalomu alaykum", "alaykum"));
+
+// function isSubstringAtAny(inputString, substring) 
+// {     return inputString.includes(substring); 
+
+// }
+// console.log(isSubstringAtAny("Assalomu alaykum aka yaxshimisiz?", "aka"));  
+
+
+// // TODO: 14. 8. Trimming Whitespace:
+// Exercise 1: Write a function that takes a string as input and returns a new string with all leading and trailing whitespace removed.
+
+// function whiteSpaceDelete(str) {
+//     return str.trim();
+// }
+
+// console.log(whiteSpaceDelete("   Hello World!      "));
+
+
+
+
+
+

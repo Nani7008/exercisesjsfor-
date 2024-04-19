@@ -28,7 +28,7 @@
 //     tel_raqami: "993250535"
 //   };
 //   console.log(person);
-  
+
 //   // 17-masala: Kitob ob'yekti yaratish
 //   let kitob = {
 //     nomi: "Alvido Bolalik",
@@ -37,9 +37,9 @@
 //     sahifa_soni: 504,
 //     tili: "O`zbek tili"
 //   };
-  
+
 //   console.log(kitob);
-  
+
 //   // 18-masala: Telefon ob'yekti yaratish
 //   let telefon = {
 //     model: "iPhone 13",
@@ -49,7 +49,7 @@
 //     ekran olchami: "6.1 inch"
 //   };
 //   console.log(telefon);
-  
+
 //   // 19-masala: Uy ob'yekti yaratish
 //   let uy = {
 //     manzil: "Toshkent sh., Uchtepa tumani, Bog`obod ko'chasi",
@@ -59,9 +59,9 @@
 //     maydon: "80 kv.m"
 //   };
 //   console.log(uy);
-  
 
-  
+
+
 // const person={
 //     name: "Narimonjon",
 //     surname: "Mannopov",
@@ -72,9 +72,9 @@
 //     nationality: "Uzbek",
 //     hobbies: ("football", "cybersport", "swimming", "reading"),   
 //     address:{city:"Tashkent", district:"Uchtepa", house_id:"12"},
-    
-    
-    
+
+
+
 //     passport: function (){
 //                 console.log (`
 //                 Name: ${person.name}
@@ -82,8 +82,8 @@
 //                 address ${person.address}
 //                 `)
 //             }
-   
-    
+
+
 //     }
 
 // console.log(Object.keys(person))
@@ -100,7 +100,7 @@
 //     "Yoshingiz nechida?",
 //     "Qaysi kursni tanlamoqchisiz(Frontend/Backend)?",
 //     "Ertab yoki Kechasi?",
-    
+
 // ];
 
 // let answers = [];
@@ -129,3 +129,84 @@
 // }
 // askQuestion();
 // displayAnswers()
+
+
+// 19.04
+
+const myCar = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2022,
+    color: "red",
+    milage: 25000,
+    accelerate: function () {
+        console.log("The car is this.accelerating");
+    },
+    brake: function () {
+        console.log("The car is braking");
+    },
+    honk: function () {
+        console.log("Beep Beep");
+    },
+    fullInfo: function () {
+        this.accelerate();
+        this.brake();
+        this.honk(); 
+        console.log(`car name ${this.make} - car model: ${this.model} the year: ${this.year} the car total miles: ${this.milage}`);
+    }
+}
+
+// console.log(myCar.fullInfo());
+// const keysOfCar = Object.keys(myCar)
+// console.log(keysOfCar);
+// const valuesOfCar = Object.values(myCar)
+// console.log(valuesOfCar);
+// const entries = Object.entries(myCar)
+// console.log(entries);
+const car1 ={
+    make: "Toyota",
+    model: "Corolla",
+    year: 2022,
+ 
+};
+const car2 ={
+    color: "red",
+    milage: 25000,
+    year: 2020,
+};
+
+const car3 ={
+year: 2024,
+};
+
+const mergeCar = Object.assign({},car1, car3, car2);
+
+// console.log(mergeCar);
+
+
+
+
+const make = "Toyota";
+const model = "Corolla";
+const year = 2022;
+
+
+const car = {
+    make: make,
+    model: model,
+    year: year,
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
