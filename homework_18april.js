@@ -9,6 +9,13 @@
 // const biography = `My name is ${name}, I am ${age} years old, I live in ${currentCity}`
 // console.log(biography);
 
+// function createBiography(name, age, currentCity) {
+//     return "My name is " + name + " " + "I am " + age + " " + "I live in "  + currentCity
+// }
+
+// console.log(createBiography("Narimonjon", 28, "Tashkent"));
+
+
 
 // 2. Write a function that takes a person's name and birthdate as parameters and returns a greeting using a template literal.
 
@@ -23,7 +30,18 @@
 //     }
 // }
 
+
 // console.log(greeting("narimonjon", 1995));
+
+
+// function greeting(name, birthdate) {
+//     const age = 2024-birthdate;
+//    return `Hello ${name}, your age is ${age}` 
+// }
+// console.log(greeting("Narimonjon", 1995));
+
+
+
 
 // TODO: 2 String Length:
 
@@ -106,7 +124,7 @@
 // Write a function that takes a string and returns the last word ofthe string.
 
 // function getLastWord(str) {
-//     const words = str.split(" ");
+//     const words = str.sp lit(" ");
 //     return words[words.length - 1];
 // }
 // console.log(getLastWord("Assalomu Allaykum"));

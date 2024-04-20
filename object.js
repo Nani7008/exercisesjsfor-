@@ -131,56 +131,56 @@
 // displayAnswers()
 
 
-// 19.04
+// // 19.04
 
-const myCar = {
-    make: "Toyota",
-    model: "Corolla",
-    year: 2022,
-    color: "red",
-    milage: 25000,
-    accelerate: function () {
-        console.log("The car is this.accelerating");
-    },
-    brake: function () {
-        console.log("The car is braking");
-    },
-    honk: function () {
-        console.log("Beep Beep");
-    },
-    fullInfo: function () {
-        this.accelerate();
-        this.brake();
-        this.honk(); 
-        console.log(`car name ${this.make} - car model: ${this.model} the year: ${this.year} the car total miles: ${this.milage}`);
-    }
-}
+// const myCar = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2022,
+//     color: "red",
+//     milage: 25000,
+//     accelerate: function () {
+//         console.log("The car is this.accelerating");
+//     },
+//     brake: function () {
+//         console.log("The car is braking");
+//     },
+//     honk: function () {
+//         console.log("Beep Beep");
+//     },
+//     fullInfo: function () {
+//         this.accelerate();
+//         this.brake();
+//         this.honk(); 
+//         console.log(`car name ${this.make} - car model: ${this.model} the year: ${this.year} the car total miles: ${this.milage}`);
+//     }
+// }
 
-// console.log(myCar.fullInfo());
-// const keysOfCar = Object.keys(myCar)
-// console.log(keysOfCar);
-// const valuesOfCar = Object.values(myCar)
-// console.log(valuesOfCar);
-// const entries = Object.entries(myCar)
-// console.log(entries);
-const car1 ={
-    make: "Toyota",
-    model: "Corolla",
-    year: 2022,
-    someObject: {x: 1, y: 2}
+// // console.log(myCar.fullInfo());
+// // const keysOfCar = Object.keys(myCar)
+// // console.log(keysOfCar);
+// // const valuesOfCar = Object.values(myCar)
+// // console.log(valuesOfCar);
+// // const entries = Object.entries(myCar)
+// // console.log(entries);
+// const car1 ={
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2022,
+//     someObject: {x: 1, y: 2}
  
-};
-const car2 ={
-    color: "red",
-    milage: 25000,
-    year: 2020,
-};
+// };
+// const car2 ={
+//     color: "red",
+//     milage: 25000,
+//     year: 2020,
+// };
 
-const car3 ={
-year: 2024,
-};
+// const car3 ={
+// year: 2024,
+// };
 
-const mergeCar = Object.assign({},car1, car3, car2);
+// const mergeCar = Object.assign({},car1, car3, car2);
 
 // console.log(mergeCar);
 
