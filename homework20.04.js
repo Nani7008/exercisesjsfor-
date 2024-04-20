@@ -102,7 +102,7 @@ function addingNewContact(name, email, phone, address) {
     console.log(`${name} added to the contact list.`);
 }
 
-addContact("Abror", "abror0707@gmail.com", "07-400-54-27", { street: "Guncha", city: "An", country: "Uzbekistan" });
+addContact("Abror", "abror0707@gmail.com", "07-400-54-27", { street: "Guncha", city: "Angren", country: "Uzbekistan" });
 
 console.log(contactList)
 
