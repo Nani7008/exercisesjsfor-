@@ -214,9 +214,15 @@
 
 
 
+// let user = new Object({name: "narimonjon", username: "nani" });
+// let user1 = {}
 
+// console.log(user.username);
+// console.log(user);
 
-
+// console.log(user);
+// user[key]= true
+// console.log(user);
 
 
 
